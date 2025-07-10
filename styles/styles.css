@@ -33,6 +33,8 @@
 }
 
 /* shared style end here */
+
+/* header section start */
 header{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
@@ -65,6 +67,9 @@ nav h1{
     margin-bottom: 35px;
 }
 
+/* header section end */
+
+/* action section style start */
 .action{
     max-width: 1140px;
     margin: 0 auto;
@@ -89,6 +94,11 @@ nav h1{
     border-radius: 48px;
 }
 
+/* action section style end */
+
+
+
+/* user section style start */
 .users{
     max-width: 1140px;
     margin: 0 auto;
@@ -127,6 +137,8 @@ nav h1{
     margin-bottom: 50px;
 }
 
+
+/* reviews style start */
 .reviews{
     max-width: 1140px;
     margin: 0 auto;
@@ -140,6 +152,7 @@ nav h1{
     font-size: 42px;
     margin-bottom: 40px;
 }
+/* review card style start */
 .review-card{
     display: flex;
     gap: 20px;
@@ -167,6 +180,9 @@ nav h1{
     font-weight: 400;
     font-size: 18px;
 }
+/* review card style end */
+/* review style end  */
+
 
 .user-profile{
     display: flex;
@@ -182,7 +198,9 @@ nav h1{
     font-size: 18px;
     color: #25243294;
 }
+/* user section style end */
 
+/* focus section style start */
 .focus{
     max-width: 1140px;
     margin: 0 auto;
@@ -216,3 +234,77 @@ nav h1{
 .focus img{
     border-radius: 48px;
 }
+/* focus section style end here */
+
+/* contact form style start here */
+.contact{
+   
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact h1{
+    font-weight: bold;
+    font-size: 95px;
+}
+
+/* contact from style start here */
+form{
+    padding-right: 50px;
+}
+label{  /* label start style*/
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, textarea{  /* input and textare start*/
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding:20px 32px;
+    margin-bottom: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+
+}
+/* conact form style end here */
+
+
+/* footer style start */
+footer{
+    margin-top: 90px;
+    text-align: center;
+}
+footer h1{
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menubar{  /* footer menubar style */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 640px;
+    padding-right: 640px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.menubar a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+/* footer style end here */
