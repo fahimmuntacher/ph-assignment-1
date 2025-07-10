@@ -24,10 +24,19 @@
     color: #4E47FF;
 }
 
+
+.paragraph-style{
+    font-weight: 400;
+    font-size: 24px;
+    color: #25243275;
+    margin-bottom: 24px;
+}
+
 /* shared style end here */
 header{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
+    margin-bottom: 115px;
 }
 nav{
     display: flex;
@@ -54,4 +63,27 @@ nav h1{
     font-weight: bold;
     font-size: 65px;
     margin-bottom: 35px;
+}
+
+.action{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: aliceblue;
+}
+
+.action-content h2{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 24px;
+    color: #252432;
+}
+
+.action-img img{
+    border-radius: 48px;
 }
