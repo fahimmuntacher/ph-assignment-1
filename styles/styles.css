@@ -182,3 +182,37 @@ nav h1{
     font-size: 18px;
     color: #25243294;
 }
+
+.focus{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-bottom: 95px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 5px 15px -4px rgba(0,0,0,0.79);
+    -webkit-box-shadow: 3px 5px 15px -4px rgba(0,0,0,0.79);
+    -moz-box-shadow: 3px 5px 15px -4px rgba(0,0,0,0.79);
+}
+.focus h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.focus p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0000007e;
+    margin-bottom: 20px;
+}
+.focus button{
+    margin-bottom: 25px;
+}
+.focus img{
+    border-radius: 48px;
+}
