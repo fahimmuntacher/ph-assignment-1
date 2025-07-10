@@ -75,6 +75,7 @@ nav h1{
     border-radius: 15px;
     padding: 25px;
     background-color: aliceblue;
+    margin-bottom: 116px;
 }
 
 .action-content h2{
@@ -86,4 +87,98 @@ nav h1{
 
 .action-img img{
     border-radius: 48px;
+}
+
+.users{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid gainsboro;
+    border-radius: 24px;
+    background-color: #4d47ff2c;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 135px;
+}
+.users h1{
+    padding-top: 52px;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+
+    margin-bottom: 40px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.users-content h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.users-content p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #00000073;
+    margin-bottom: 50px;
+}
+
+.reviews{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 135px;
+
+}
+
+.reviews h1{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+.review-card{
+    display: flex;
+    gap: 20px;
+}
+.r-card{
+    text-align: start;
+    height: 200px;
+    width: 365px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    background-color: #4d47ff17;
+    padding: 24px;
+}
+
+.r-card h2{
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+
+}
+
+.r-card p{
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.user-profile{
+    display: flex;
+    gap: 12px;
+}
+.user-profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.user-profile p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #25243294;
 }
