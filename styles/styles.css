@@ -2,16 +2,20 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    
+   
  
+}
+body{
+    background-color: #4d47ff11;
 }
 
 /* shared style start here  */
 .primary-btn{
     border: none;
     background-color: #4E47FF;
+    
     padding: 12px 36px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
     font-size: 16px;
     border-radius: 10px;
@@ -22,8 +26,9 @@
 
 .primary-btn:hover{
      transform: scale(1.05);
-    background-color: #ff6b6b; 
-    color: #fff;
+    background-color: #ffffff; 
+    border: 2px solid #4E47FF;
+    color: #4E47FF;
 }
 
 .paragraph-style{
@@ -53,8 +58,22 @@ nav h1{
     color: #4E47FF;
     font-weight: 800;
     font-size: 34px;
+    
 }
 
+nav img{
+    height: 80px;
+    width: 100px;
+}
+
+nav button{
+    background-image: url(https://img.icons8.com/?size=24&id=T594YO5M5wL5&format=png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px center;
+   
+
+}
 .banner-section{
     display: block;
     text-align: center;
@@ -66,6 +85,13 @@ nav h1{
     font-weight: bold;
     font-size: 65px;
     margin-bottom: 35px;
+}
+
+.banner-section button{
+    background-image: url(https://img.icons8.com/?size=50&id=123809&format=png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px center;
 }
 
 /* header section end */
@@ -91,6 +117,12 @@ nav h1{
     color: #252432;
 }
 
+.action-content button{
+    background-image: url(https://img.icons8.com/?size=80&id=2E3GpDXMgxfj&format=png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px center;
+}
 .action-img img{
     border-radius: 48px;
 }
@@ -235,6 +267,13 @@ nav h1{
 .focus img{
     border-radius: 48px;
 }
+
+.focus-content button{
+     background-image: url(https://img.icons8.com/?size=80&id=43463&format=png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px center;
+}
 /* focus section style end here */
 
 /* contact form style start here */
@@ -246,6 +285,7 @@ nav h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .contact h1{
     font-weight: bold;
@@ -272,6 +312,17 @@ input, textarea{  /* input and textare start*/
     border-radius: 10px;
 
 }
+.submit-btn{
+    position: absolute;
+    width: 380px;
+    
+}
+.submit-btn button{
+    background-image: url(https://img.icons8.com/?size=50&id=53388&format=png);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 70px center;
+}
 /* conact form style end here */
 
 
@@ -279,12 +330,21 @@ input, textarea{  /* input and textare start*/
 footer{
     margin-top: 90px;
     text-align: center;
+    
+}
+footer img{
+    height: 200px;
+    width: 250px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+
 }
 footer h1{
-    font-weight: 900;
-    font-size: 100px;
+    font-weight: 700;
+    font-size: 40px;
     color: #4E47FF;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 footer p{
     font-weight: 400;
@@ -306,6 +366,10 @@ footer p{
 .menubar a{
     text-decoration: none;
     color: #8987A1;
+}
+
+.menubar a:hover{
+    color: #4E47FF;
 }
 
 /* footer style end here */
